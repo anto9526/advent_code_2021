@@ -58,7 +58,7 @@ function execute_intstuction2!(instruction, state::State  )
     return state
 end
 
-function task1()
+function task2()
 
     f = open(pwd()*"/week1/day2_data.txt");
     lines = readlines(f)
@@ -73,3 +73,4 @@ function task1()
 end
 
 task1()
+task2()
